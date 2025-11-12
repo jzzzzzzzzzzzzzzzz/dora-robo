@@ -1,11 +1,15 @@
 import cv2
 import logging
+import os
 import time
+import traceback
+from collections import deque
 from dataclasses import asdict, dataclass
+from functools import cache
 from pathlib import Path
 from pprint import pformat
-from functools import cache
-import traceback
+from statistics import mean
+
 import draccus
 
 from operating_platform.core.daemon import Daemon
@@ -39,6 +43,24 @@ import numpy as np
 from copy import copy
 from operating_platform.utils.utils import get_safe_torch_device
 from operating_platform.config.policies import PreTrainedConfig
+
+# Profiling toggles so we can enable latency/torch-npu traces from the shell.
+ENABLE_LATENCY_LOG = os.getenv("ACT_PROFILE_LATENCY", "0") == "1"
+LATENCY_WINDOW = max(1, int(os.getenv("ACT_LATENCY_WINDOW", "120")))
+LATENCY_LOG_PATH = Path(os.getenv("ACT_LATENCY_FILE", "")).expanduser() if os.getenv("ACT_LATENCY_FILE") else None
+ENABLE_TORCH_PROF = os.getenv("ACT_PROFILE_TORCH", "0") == "1"
+TORCH_PROF_EXPORT = (
+    Path(os.getenv("ACT_TORCH_PROFILE_EXPORT", "")).expanduser()
+    if os.getenv("ACT_TORCH_PROFILE_EXPORT")
+    else None
+)
+ENABLE_ACTION_LOG = os.getenv("ACT_PRINT_ACTION", "0") == "1"
+
+try:
+    from torch_npu.profiler import ProfilerActivity, profile as npu_profile  # type: ignore
+except Exception:  # pragma: no cover
+    npu_profile = None
+    ProfilerActivity = None
 
 
 @cache
@@ -84,11 +106,29 @@ def predict_action(
     task: str | None = None,
     robot_type: str | None = None,
 ):
+    """
+    Convert Dora observations into tensors, feed one ACT policy step, and optionally
+    emit torch_npu operator traces when ACT_PROFILE_TORCH=1.
+    """
     observation = copy(observation)
+    prof_ctx = nullcontext()
+    if (
+        ENABLE_TORCH_PROF
+        and npu_profile is not None
+        and ProfilerActivity is not None
+        and device.type == "npu"
+    ):
+        prof_ctx = npu_profile(
+            activities=[ProfilerActivity.NPU],
+            record_shapes=True,
+        )
+    active_prof = None
     with (
         torch.inference_mode(),
         torch.autocast(device_type=device.type) if device.type == "cuda" and use_amp else nullcontext(),
+        prof_ctx as prof_handle,
     ):
+        active_prof = prof_handle
         # Convert to pytorch format: channel first and float32 in [0,1] with batch dimension
         for name in observation:
             observation[name] = torch.from_numpy(observation[name])
@@ -111,6 +151,38 @@ def predict_action(
         # Move to cpu, if not already the case
         action = action.to("cpu")
 
+    if active_prof is not None:
+        if hasattr(active_prof, "key_averages"):
+            print(
+                active_prof.key_averages().table(
+                    sort_by="self_npu_time_total",
+                    row_limit=20,
+                )
+            )
+        else:
+            profiler_path = getattr(
+                getattr(active_prof, "_msprofiler_interface", None), "path", None
+            )
+            if TORCH_PROF_EXPORT is not None:
+                try:
+                    TORCH_PROF_EXPORT.parent.mkdir(parents=True, exist_ok=True)
+                    active_prof.export_chrome_trace(str(TORCH_PROF_EXPORT))
+                    logging.info(
+                        "NPU profiler trace exported to %s (open with msprof or TensorBoard)",
+                        TORCH_PROF_EXPORT,
+                    )
+                except Exception as err:
+                    logging.warning(
+                        "Failed to export NPU profiler trace to %s: %s",
+                        TORCH_PROF_EXPORT,
+                        err,
+                    )
+            elif profiler_path:
+                logging.info(
+                    "NPU profiler raw data stored under %s (parse with msprof analyse)",
+                    profiler_path,
+                )
+
     return action
 
 # @draccus.wrap()
@@ -130,6 +202,14 @@ def inference(cfg: InferenceConfig, policy_cfg: PreTrainedConfig,daemon: Daemon)
     policy = None if policy_cfg is None else make_policy(policy_cfg, ds_meta=dataset.meta)
     if policy is None:
         logging.error("Policy cannot be None")
+
+    latency_window: deque[float] = deque(maxlen=LATENCY_WINDOW)
+    latency_frame_idx = 0
+    if LATENCY_LOG_PATH is not None:
+        LATENCY_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        if not LATENCY_LOG_PATH.exists():
+            with LATENCY_LOG_PATH.open("w", encoding="utf-8") as f:
+                f.write("timestamp_s,frame_idx,latency_ms\n")
 
     while True:
         logging.info("="*30)
@@ -160,6 +240,7 @@ def inference(cfg: InferenceConfig, policy_cfg: PreTrainedConfig,daemon: Daemon)
                 observation_frame = build_dataset_frame(dataset.features, observation, prefix="observation")
 
             if policy is not None:
+                t0 = time.perf_counter()
                 action_values = predict_action(
                     observation_frame,
                     policy,
@@ -168,8 +249,26 @@ def inference(cfg: InferenceConfig, policy_cfg: PreTrainedConfig,daemon: Daemon)
                     task=cfg.single_task,
                     robot_type=daemon.robot.robot_type,
                 )
+                if ENABLE_LATENCY_LOG:
+                    latency_ms = (time.perf_counter() - t0) * 1000
+                    latency_window.append(latency_ms)
+                    latency_frame_idx += 1
+                    if LATENCY_LOG_PATH is not None:
+                        with LATENCY_LOG_PATH.open("a", encoding="utf-8") as f:
+                            f.write(f"{time.time():.6f},{latency_frame_idx},{latency_ms:.4f}\n")
+                    if len(latency_window) == latency_window.maxlen:
+                        logging.info(
+                            "[Latency] mean=%5.2f ms  min=%5.2f ms  max=%5.2f ms",
+                            mean(latency_window),
+                            min(latency_window),
+                            max(latency_window),
+                        )
+                        latency_window.clear()
+                    elif LATENCY_WINDOW == 1:
+                        logging.info("[Latency] frame=%5.2f ms", latency_ms)
                 action = {key: action_values[i].item() for i, key in enumerate(daemon.robot.action_features)}
-                print(f"action:{action}")
+                if ENABLE_ACTION_LOG:
+                    logging.info("Action: %s", action)
                 daemon.robot.send_action(action)
             
             # 显示图像（仅在非无头模式）
