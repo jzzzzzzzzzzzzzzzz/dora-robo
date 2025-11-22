@@ -2,7 +2,7 @@
     "session_and_graph_id_0_0": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -26,7 +26,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SplitConvConcatFusionPass": {
@@ -46,7 +46,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransposedUpdateFusionPass": {
@@ -66,7 +66,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
@@ -78,6 +78,14 @@
     "session_and_graph_id_103_103": {
         "graph_fusion": {
             "ARefreshCubeC0FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -106,7 +114,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -114,7 +122,7 @@
     "session_and_graph_id_104_104": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -134,7 +142,7 @@
     "session_and_graph_id_105_105": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -142,7 +150,7 @@
     "session_and_graph_id_106_106": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -150,7 +158,7 @@
     "session_and_graph_id_107_107": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -158,7 +166,7 @@
     "session_and_graph_id_108_108": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -166,7 +174,7 @@
     "session_and_graph_id_109_109": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -174,7 +182,7 @@
     "session_and_graph_id_10_10": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -194,7 +202,7 @@
     "session_and_graph_id_110_110": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -202,7 +210,7 @@
     "session_and_graph_id_111_111": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -210,7 +218,7 @@
     "session_and_graph_id_112_112": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -218,7 +226,7 @@
     "session_and_graph_id_113_113": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -226,7 +234,7 @@
     "session_and_graph_id_114_114": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -234,7 +242,7 @@
     "session_and_graph_id_115_115": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -242,7 +250,7 @@
     "session_and_graph_id_116_116": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -250,7 +258,7 @@
     "session_and_graph_id_117_117": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -258,7 +266,7 @@
     "session_and_graph_id_118_118": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -266,7 +274,7 @@
     "session_and_graph_id_119_119": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -274,7 +282,7 @@
     "session_and_graph_id_11_11": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -294,7 +302,7 @@
     "session_and_graph_id_120_120": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -302,7 +310,7 @@
     "session_and_graph_id_121_121": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -310,7 +318,7 @@
     "session_and_graph_id_122_122": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -318,7 +326,7 @@
     "session_and_graph_id_123_123": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -326,7 +334,7 @@
     "session_and_graph_id_124_124": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -334,7 +342,7 @@
     "session_and_graph_id_125_125": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -342,7 +350,7 @@
     "session_and_graph_id_126_126": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -350,7 +358,7 @@
     "session_and_graph_id_127_127": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -358,7 +366,7 @@
     "session_and_graph_id_128_128": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -366,7 +374,7 @@
     "session_and_graph_id_129_129": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -382,7 +390,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
@@ -394,7 +402,7 @@
     "session_and_graph_id_130_130": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -402,7 +410,7 @@
     "session_and_graph_id_131_131": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -410,7 +418,7 @@
     "session_and_graph_id_132_132": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -418,7 +426,7 @@
     "session_and_graph_id_133_133": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -426,7 +434,7 @@
     "session_and_graph_id_134_134": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -434,7 +442,7 @@
     "session_and_graph_id_135_135": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -442,7 +450,7 @@
     "session_and_graph_id_136_136": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -450,7 +458,7 @@
     "session_and_graph_id_137_137": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -458,7 +466,7 @@
     "session_and_graph_id_138_138": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -466,7 +474,7 @@
     "session_and_graph_id_139_139": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -482,7 +490,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
@@ -494,7 +502,7 @@
     "session_and_graph_id_140_140": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -502,7 +510,7 @@
     "session_and_graph_id_141_141": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -510,7 +518,7 @@
     "session_and_graph_id_142_142": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -518,7 +526,7 @@
     "session_and_graph_id_143_143": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -526,7 +534,7 @@
     "session_and_graph_id_144_144": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -534,7 +542,7 @@
     "session_and_graph_id_145_145": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -542,7 +550,7 @@
     "session_and_graph_id_146_146": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -550,7 +558,7 @@
     "session_and_graph_id_147_147": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -558,7 +566,7 @@
     "session_and_graph_id_148_148": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -566,15 +574,19 @@
     "session_and_graph_id_149_149": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
     },
     "session_and_graph_id_14_14": {
         "graph_fusion": {
+            "AbsRemoveFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -582,7 +594,7 @@
     "session_and_graph_id_150_150": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -590,7 +602,7 @@
     "session_and_graph_id_151_151": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -598,7 +610,7 @@
     "session_and_graph_id_152_152": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -606,7 +618,7 @@
     "session_and_graph_id_153_153": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -614,7 +626,7 @@
     "session_and_graph_id_154_154": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -622,7 +634,7 @@
     "session_and_graph_id_155_155": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -630,7 +642,7 @@
     "session_and_graph_id_156_156": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -638,7 +650,7 @@
     "session_and_graph_id_157_157": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -646,7 +658,7 @@
     "session_and_graph_id_158_158": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -654,7 +666,7 @@
     "session_and_graph_id_159_159": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -662,7 +674,7 @@
     "session_and_graph_id_15_15": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -670,7 +682,7 @@
     "session_and_graph_id_160_160": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -678,7 +690,7 @@
     "session_and_graph_id_161_161": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -686,7 +698,7 @@
     "session_and_graph_id_162_162": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -694,7 +706,7 @@
     "session_and_graph_id_163_163": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -702,7 +714,7 @@
     "session_and_graph_id_164_164": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -710,7 +722,7 @@
     "session_and_graph_id_165_165": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -718,7 +730,7 @@
     "session_and_graph_id_166_166": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -726,7 +738,7 @@
     "session_and_graph_id_167_167": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -734,7 +746,7 @@
     "session_and_graph_id_168_168": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -742,7 +754,7 @@
     "session_and_graph_id_169_169": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -758,7 +770,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -766,7 +778,7 @@
     "session_and_graph_id_170_170": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -774,7 +786,7 @@
     "session_and_graph_id_171_171": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -782,7 +794,7 @@
     "session_and_graph_id_172_172": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -790,7 +802,7 @@
     "session_and_graph_id_173_173": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -798,7 +810,7 @@
     "session_and_graph_id_174_174": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -806,7 +818,7 @@
     "session_and_graph_id_175_175": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -814,7 +826,7 @@
     "session_and_graph_id_176_176": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -822,7 +834,7 @@
     "session_and_graph_id_177_177": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -830,7 +842,7 @@
     "session_and_graph_id_178_178": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -838,7 +850,7 @@
     "session_and_graph_id_179_179": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -854,7 +866,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
@@ -866,7 +878,7 @@
     "session_and_graph_id_180_180": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -874,7 +886,7 @@
     "session_and_graph_id_181_181": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -882,7 +894,7 @@
     "session_and_graph_id_182_182": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -890,7 +902,7 @@
     "session_and_graph_id_183_183": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -898,7 +910,7 @@
     "session_and_graph_id_184_184": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -906,7 +918,7 @@
     "session_and_graph_id_185_185": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -914,7 +926,7 @@
     "session_and_graph_id_186_186": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -922,7 +934,7 @@
     "session_and_graph_id_187_187": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -930,7 +942,7 @@
     "session_and_graph_id_188_188": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -938,7 +950,7 @@
     "session_and_graph_id_189_189": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -946,7 +958,7 @@
     "session_and_graph_id_18_18": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SubFusionPass": {
@@ -958,7 +970,7 @@
     "session_and_graph_id_190_190": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -966,7 +978,7 @@
     "session_and_graph_id_191_191": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -974,7 +986,7 @@
     "session_and_graph_id_192_192": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -982,7 +994,7 @@
     "session_and_graph_id_193_193": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -990,7 +1002,7 @@
     "session_and_graph_id_194_194": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -998,7 +1010,7 @@
     "session_and_graph_id_195_195": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1006,7 +1018,7 @@
     "session_and_graph_id_196_196": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1014,7 +1026,7 @@
     "session_and_graph_id_197_197": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1022,7 +1034,7 @@
     "session_and_graph_id_198_198": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1030,7 +1042,7 @@
     "session_and_graph_id_199_199": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1038,7 +1050,7 @@
     "session_and_graph_id_19_19": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1046,7 +1058,7 @@
     "session_and_graph_id_1_1": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -1066,7 +1078,7 @@
     "session_and_graph_id_200_200": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1074,7 +1086,7 @@
     "session_and_graph_id_201_201": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1082,7 +1094,7 @@
     "session_and_graph_id_202_202": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1090,7 +1102,7 @@
     "session_and_graph_id_203_203": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1098,7 +1110,7 @@
     "session_and_graph_id_204_204": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1106,7 +1118,7 @@
     "session_and_graph_id_205_205": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1114,7 +1126,7 @@
     "session_and_graph_id_206_206": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1122,7 +1134,7 @@
     "session_and_graph_id_207_207": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1130,7 +1142,7 @@
     "session_and_graph_id_208_208": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1138,7 +1150,7 @@
     "session_and_graph_id_209_209": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1150,7 +1162,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1158,7 +1170,7 @@
     "session_and_graph_id_210_210": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1166,7 +1178,7 @@
     "session_and_graph_id_211_211": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1174,7 +1186,7 @@
     "session_and_graph_id_212_212": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1182,7 +1194,7 @@
     "session_and_graph_id_213_213": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1190,7 +1202,7 @@
     "session_and_graph_id_214_214": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1198,7 +1210,7 @@
     "session_and_graph_id_215_215": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1206,7 +1218,7 @@
     "session_and_graph_id_216_216": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1214,7 +1226,7 @@
     "session_and_graph_id_217_217": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1222,7 +1234,7 @@
     "session_and_graph_id_218_218": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1230,15 +1242,19 @@
     "session_and_graph_id_219_219": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
     },
     "session_and_graph_id_21_21": {
         "graph_fusion": {
+            "AbsRemoveFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1246,7 +1262,7 @@
     "session_and_graph_id_220_220": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1254,7 +1270,7 @@
     "session_and_graph_id_221_221": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1262,7 +1278,7 @@
     "session_and_graph_id_222_222": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1270,7 +1286,7 @@
     "session_and_graph_id_223_223": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1278,7 +1294,7 @@
     "session_and_graph_id_224_224": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1286,7 +1302,7 @@
     "session_and_graph_id_225_225": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1294,7 +1310,7 @@
     "session_and_graph_id_226_226": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1302,7 +1318,7 @@
     "session_and_graph_id_227_227": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1310,7 +1326,7 @@
     "session_and_graph_id_228_228": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1318,7 +1334,7 @@
     "session_and_graph_id_229_229": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1326,7 +1342,7 @@
     "session_and_graph_id_22_22": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1334,7 +1350,7 @@
     "session_and_graph_id_230_230": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1342,7 +1358,7 @@
     "session_and_graph_id_231_231": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1350,7 +1366,7 @@
     "session_and_graph_id_232_232": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1358,7 +1374,7 @@
     "session_and_graph_id_233_233": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1366,7 +1382,7 @@
     "session_and_graph_id_234_234": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1374,7 +1390,7 @@
     "session_and_graph_id_235_235": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1382,7 +1398,7 @@
     "session_and_graph_id_236_236": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1390,7 +1406,7 @@
     "session_and_graph_id_237_237": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1398,7 +1414,7 @@
     "session_and_graph_id_238_238": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1406,7 +1422,7 @@
     "session_and_graph_id_239_239": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1422,7 +1438,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1430,7 +1446,7 @@
     "session_and_graph_id_240_240": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1438,7 +1454,7 @@
     "session_and_graph_id_241_241": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1446,7 +1462,7 @@
     "session_and_graph_id_242_242": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1454,7 +1470,7 @@
     "session_and_graph_id_243_243": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1462,7 +1478,7 @@
     "session_and_graph_id_244_244": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1470,7 +1486,7 @@
     "session_and_graph_id_245_245": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1478,7 +1494,7 @@
     "session_and_graph_id_246_246": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1486,7 +1502,7 @@
     "session_and_graph_id_247_247": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1494,7 +1510,7 @@
     "session_and_graph_id_248_248": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1502,7 +1518,7 @@
     "session_and_graph_id_249_249": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1518,7 +1534,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
@@ -1530,7 +1546,7 @@
     "session_and_graph_id_250_250": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1538,7 +1554,7 @@
     "session_and_graph_id_251_251": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1546,7 +1562,7 @@
     "session_and_graph_id_252_252": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1554,7 +1570,7 @@
     "session_and_graph_id_253_253": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1562,7 +1578,7 @@
     "session_and_graph_id_254_254": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1570,7 +1586,7 @@
     "session_and_graph_id_255_255": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1578,7 +1594,7 @@
     "session_and_graph_id_256_256": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1586,7 +1602,7 @@
     "session_and_graph_id_257_257": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1594,7 +1610,7 @@
     "session_and_graph_id_258_258": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1602,7 +1618,7 @@
     "session_and_graph_id_259_259": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1610,7 +1626,7 @@
     "session_and_graph_id_25_25": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SubFusionPass": {
@@ -1622,7 +1638,7 @@
     "session_and_graph_id_260_260": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1630,7 +1646,7 @@
     "session_and_graph_id_261_261": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1638,7 +1654,7 @@
     "session_and_graph_id_262_262": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1646,7 +1662,7 @@
     "session_and_graph_id_263_263": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1654,7 +1670,7 @@
     "session_and_graph_id_264_264": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1662,7 +1678,7 @@
     "session_and_graph_id_265_265": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1670,7 +1686,7 @@
     "session_and_graph_id_266_266": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1678,7 +1694,7 @@
     "session_and_graph_id_267_267": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1686,7 +1702,7 @@
     "session_and_graph_id_268_268": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1694,7 +1710,7 @@
     "session_and_graph_id_269_269": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1702,7 +1718,7 @@
     "session_and_graph_id_26_26": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1710,7 +1726,7 @@
     "session_and_graph_id_270_270": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1718,7 +1734,7 @@
     "session_and_graph_id_271_271": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1726,7 +1742,7 @@
     "session_and_graph_id_272_272": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1734,7 +1750,7 @@
     "session_and_graph_id_273_273": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1742,7 +1758,7 @@
     "session_and_graph_id_274_274": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1750,7 +1766,7 @@
     "session_and_graph_id_275_275": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1758,7 +1774,7 @@
     "session_and_graph_id_276_276": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1766,7 +1782,7 @@
     "session_and_graph_id_277_277": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1774,7 +1790,7 @@
     "session_and_graph_id_278_278": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1782,7 +1798,7 @@
     "session_and_graph_id_279_279": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1794,7 +1810,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1802,7 +1818,7 @@
     "session_and_graph_id_280_280": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1810,7 +1826,7 @@
     "session_and_graph_id_281_281": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1818,7 +1834,7 @@
     "session_and_graph_id_282_282": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1826,7 +1842,7 @@
     "session_and_graph_id_283_283": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1834,7 +1850,7 @@
     "session_and_graph_id_284_284": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1842,7 +1858,7 @@
     "session_and_graph_id_285_285": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1850,7 +1866,7 @@
     "session_and_graph_id_286_286": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1858,7 +1874,7 @@
     "session_and_graph_id_287_287": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1866,7 +1882,7 @@
     "session_and_graph_id_288_288": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1874,7 +1890,7 @@
     "session_and_graph_id_289_289": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1893,6 +1909,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -1926,12 +1946,16 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
                 "effect_times": "0",
                 "match_times": "3"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
                 "effect_times": "0",
@@ -1940,13 +1964,17 @@
             "ZZZBatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             }
         }
     },
     "session_and_graph_id_290_290": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1954,7 +1982,7 @@
     "session_and_graph_id_291_291": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1962,7 +1990,7 @@
     "session_and_graph_id_292_292": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1970,7 +1998,7 @@
     "session_and_graph_id_293_293": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1978,7 +2006,7 @@
     "session_and_graph_id_294_294": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1986,7 +2014,7 @@
     "session_and_graph_id_295_295": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -1994,7 +2022,7 @@
     "session_and_graph_id_296_296": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2002,7 +2030,7 @@
     "session_and_graph_id_297_297": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2010,7 +2038,7 @@
     "session_and_graph_id_298_298": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2018,7 +2046,7 @@
     "session_and_graph_id_299_299": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2037,6 +2065,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -2070,12 +2102,16 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
                 "effect_times": "0",
                 "match_times": "3"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
                 "effect_times": "0",
@@ -2084,13 +2120,17 @@
             "ZZZBatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             }
         }
     },
     "session_and_graph_id_2_2": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -2110,7 +2150,7 @@
     "session_and_graph_id_300_300": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2118,7 +2158,7 @@
     "session_and_graph_id_301_301": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2126,7 +2166,7 @@
     "session_and_graph_id_302_302": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2134,7 +2174,7 @@
     "session_and_graph_id_303_303": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2142,7 +2182,7 @@
     "session_and_graph_id_304_304": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2150,7 +2190,7 @@
     "session_and_graph_id_305_305": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2158,7 +2198,7 @@
     "session_and_graph_id_306_306": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2166,7 +2206,7 @@
     "session_and_graph_id_307_307": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2174,7 +2214,7 @@
     "session_and_graph_id_308_308": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2182,7 +2222,7 @@
     "session_and_graph_id_309_309": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2198,7 +2238,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
@@ -2210,7 +2250,7 @@
     "session_and_graph_id_310_310": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2218,7 +2258,7 @@
     "session_and_graph_id_311_311": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2226,7 +2266,7 @@
     "session_and_graph_id_312_312": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2234,7 +2274,7 @@
     "session_and_graph_id_313_313": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2242,7 +2282,7 @@
     "session_and_graph_id_314_314": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2250,7 +2290,7 @@
     "session_and_graph_id_315_315": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2258,7 +2298,7 @@
     "session_and_graph_id_316_316": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2266,7 +2306,7 @@
     "session_and_graph_id_317_317": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2274,7 +2314,7 @@
     "session_and_graph_id_318_318": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2282,7 +2322,7 @@
     "session_and_graph_id_319_319": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2290,6 +2330,14 @@
     "session_and_graph_id_31_31": {
         "graph_fusion": {
             "ARefreshCubeC0FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -2318,7 +2366,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -2338,7 +2386,7 @@
     "session_and_graph_id_320_320": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2346,7 +2394,7 @@
     "session_and_graph_id_321_321": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2354,7 +2402,7 @@
     "session_and_graph_id_322_322": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2362,7 +2410,7 @@
     "session_and_graph_id_323_323": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2370,7 +2418,7 @@
     "session_and_graph_id_324_324": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2378,7 +2426,7 @@
     "session_and_graph_id_325_325": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2386,7 +2434,7 @@
     "session_and_graph_id_326_326": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2394,7 +2442,7 @@
     "session_and_graph_id_327_327": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2402,7 +2450,7 @@
     "session_and_graph_id_328_328": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2410,7 +2458,7 @@
     "session_and_graph_id_329_329": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2418,7 +2466,7 @@
     "session_and_graph_id_32_32": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2426,7 +2474,7 @@
     "session_and_graph_id_330_330": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2434,7 +2482,7 @@
     "session_and_graph_id_331_331": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2442,7 +2490,7 @@
     "session_and_graph_id_332_332": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2450,7 +2498,7 @@
     "session_and_graph_id_333_333": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2458,7 +2506,7 @@
     "session_and_graph_id_334_334": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2466,7 +2514,7 @@
     "session_and_graph_id_335_335": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2474,7 +2522,7 @@
     "session_and_graph_id_336_336": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2482,7 +2530,7 @@
     "session_and_graph_id_337_337": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2490,7 +2538,7 @@
     "session_and_graph_id_338_338": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2498,7 +2546,7 @@
     "session_and_graph_id_339_339": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2506,7 +2554,7 @@
     "session_and_graph_id_33_33": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2514,7 +2562,7 @@
     "session_and_graph_id_340_340": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2522,7 +2570,7 @@
     "session_and_graph_id_341_341": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2530,7 +2578,7 @@
     "session_and_graph_id_342_342": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2538,7 +2586,7 @@
     "session_and_graph_id_343_343": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2546,7 +2594,7 @@
     "session_and_graph_id_344_344": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2554,7 +2602,7 @@
     "session_and_graph_id_345_345": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2562,7 +2610,7 @@
     "session_and_graph_id_346_346": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2570,7 +2618,7 @@
     "session_and_graph_id_347_347": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2578,7 +2626,7 @@
     "session_and_graph_id_348_348": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2586,7 +2634,7 @@
     "session_and_graph_id_349_349": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2598,7 +2646,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2606,7 +2654,7 @@
     "session_and_graph_id_350_350": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2614,7 +2662,7 @@
     "session_and_graph_id_351_351": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2622,7 +2670,7 @@
     "session_and_graph_id_352_352": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2630,7 +2678,7 @@
     "session_and_graph_id_353_353": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2638,7 +2686,7 @@
     "session_and_graph_id_354_354": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2646,7 +2694,7 @@
     "session_and_graph_id_355_355": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2654,7 +2702,7 @@
     "session_and_graph_id_356_356": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2662,7 +2710,7 @@
     "session_and_graph_id_357_357": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2670,7 +2718,7 @@
     "session_and_graph_id_358_358": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2678,7 +2726,7 @@
     "session_and_graph_id_359_359": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2686,7 +2734,7 @@
     "session_and_graph_id_35_35": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SubFusionPass": {
@@ -2698,7 +2746,7 @@
     "session_and_graph_id_360_360": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2706,7 +2754,7 @@
     "session_and_graph_id_361_361": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2714,7 +2762,7 @@
     "session_and_graph_id_362_362": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2722,7 +2770,7 @@
     "session_and_graph_id_363_363": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2730,7 +2778,7 @@
     "session_and_graph_id_364_364": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2738,7 +2786,7 @@
     "session_and_graph_id_365_365": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2746,7 +2794,7 @@
     "session_and_graph_id_366_366": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2754,7 +2802,7 @@
     "session_and_graph_id_367_367": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2762,7 +2810,7 @@
     "session_and_graph_id_368_368": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2770,7 +2818,7 @@
     "session_and_graph_id_369_369": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2782,7 +2830,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -2802,7 +2850,7 @@
     "session_and_graph_id_370_370": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2810,7 +2858,7 @@
     "session_and_graph_id_371_371": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2818,7 +2866,7 @@
     "session_and_graph_id_372_372": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2826,7 +2874,7 @@
     "session_and_graph_id_373_373": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2834,7 +2882,7 @@
     "session_and_graph_id_374_374": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2842,7 +2890,7 @@
     "session_and_graph_id_375_375": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2850,7 +2898,7 @@
     "session_and_graph_id_376_376": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2858,7 +2906,7 @@
     "session_and_graph_id_377_377": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2866,7 +2914,7 @@
     "session_and_graph_id_378_378": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2874,7 +2922,7 @@
     "session_and_graph_id_379_379": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2882,7 +2930,7 @@
     "session_and_graph_id_37_37": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -2902,7 +2950,7 @@
     "session_and_graph_id_380_380": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2910,7 +2958,7 @@
     "session_and_graph_id_381_381": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2918,7 +2966,7 @@
     "session_and_graph_id_382_382": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2926,7 +2974,7 @@
     "session_and_graph_id_383_383": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2934,7 +2982,7 @@
     "session_and_graph_id_384_384": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2942,7 +2990,7 @@
     "session_and_graph_id_385_385": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2950,7 +2998,7 @@
     "session_and_graph_id_386_386": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2958,7 +3006,7 @@
     "session_and_graph_id_387_387": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2966,7 +3014,7 @@
     "session_and_graph_id_388_388": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2974,7 +3022,7 @@
     "session_and_graph_id_389_389": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2982,7 +3030,7 @@
     "session_and_graph_id_38_38": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2990,7 +3038,7 @@
     "session_and_graph_id_390_390": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -2998,7 +3046,7 @@
     "session_and_graph_id_391_391": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3006,7 +3054,7 @@
     "session_and_graph_id_392_392": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3014,7 +3062,7 @@
     "session_and_graph_id_393_393": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3022,7 +3070,7 @@
     "session_and_graph_id_394_394": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3030,7 +3078,7 @@
     "session_and_graph_id_395_395": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3038,7 +3086,7 @@
     "session_and_graph_id_396_396": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3046,7 +3094,7 @@
     "session_and_graph_id_397_397": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3054,7 +3102,7 @@
     "session_and_graph_id_398_398": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3062,15 +3110,19 @@
     "session_and_graph_id_399_399": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
     },
     "session_and_graph_id_39_39": {
         "graph_fusion": {
+            "MaxPoolWithArgmaxV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3078,7 +3130,7 @@
     "session_and_graph_id_3_3": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -3098,7 +3150,7 @@
     "session_and_graph_id_400_400": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3106,7 +3158,7 @@
     "session_and_graph_id_401_401": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3114,7 +3166,7 @@
     "session_and_graph_id_402_402": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3122,7 +3174,7 @@
     "session_and_graph_id_403_403": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3130,7 +3182,7 @@
     "session_and_graph_id_404_404": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3138,7 +3190,7 @@
     "session_and_graph_id_405_405": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3154,7 +3206,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SplitConvConcatFusionPass": {
@@ -3170,7 +3222,7 @@
     "session_and_graph_id_407_407": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3193,6 +3245,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -3222,7 +3278,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
@@ -3230,6 +3290,10 @@
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             }
@@ -3242,7 +3306,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransposedUpdateFusionPass": {
@@ -3254,6 +3318,14 @@
     "session_and_graph_id_40_40": {
         "graph_fusion": {
             "ARefreshCubeC0FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -3282,7 +3354,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3294,7 +3366,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3306,7 +3378,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransposedUpdateFusionPass": {
@@ -3329,11 +3401,23 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMul2TransposeBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "2"
+            },
             "BatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulNanoFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "BatchMatMulToBatchMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "BatchMatMulTransposeFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -3362,7 +3446,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
@@ -3378,7 +3466,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SoftmaxFusionPass": {
@@ -3405,11 +3493,23 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMul2TransposeBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "2"
+            },
             "BatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulNanoFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "BatchMatMulToBatchMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "BatchMatMulTransposeFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -3438,7 +3538,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
@@ -3454,7 +3558,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransposedUpdateFusionPass": {
@@ -3474,7 +3578,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3486,7 +3590,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3506,6 +3610,10 @@
                 "match_times": "1"
             },
             "BatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "BatchMatMulTransposeFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -3538,7 +3646,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
@@ -3548,13 +3660,17 @@
             "ZZZBatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             }
         }
     },
     "session_and_graph_id_419_419": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3566,7 +3682,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -3601,6 +3717,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -3630,7 +3750,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
@@ -3640,13 +3764,17 @@
             "ZZZBatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             }
         }
     },
     "session_and_graph_id_421_421": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3654,7 +3782,7 @@
     "session_and_graph_id_422_422": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3677,6 +3805,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -3706,7 +3838,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
@@ -3714,6 +3850,10 @@
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             }
@@ -3726,7 +3866,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransposedUpdateFusionPass": {
@@ -3742,7 +3882,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3754,7 +3894,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransposedUpdateFusionPass": {
@@ -3777,11 +3917,23 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMul2TransposeBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "2"
+            },
             "BatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulNanoFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "BatchMatMulToBatchMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "BatchMatMulTransposeFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -3810,7 +3962,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
@@ -3826,7 +3982,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SoftmaxFusionPass": {
@@ -3853,11 +4009,23 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMul2TransposeBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "2"
+            },
             "BatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulNanoFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "BatchMatMulToBatchMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "BatchMatMulTransposeFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -3886,7 +4054,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
@@ -3898,7 +4070,7 @@
     "session_and_graph_id_42_42": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -3922,7 +4094,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransposedUpdateFusionPass": {
@@ -3942,7 +4114,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3954,7 +4126,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -3973,11 +4145,23 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMul2TransposeBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "2"
+            },
             "BatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulNanoFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "BatchMatMulToBatchMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "BatchMatMulTransposeFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -4006,7 +4190,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
@@ -4022,7 +4210,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SoftmaxFusionPass": {
@@ -4049,11 +4237,23 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMul2TransposeBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "2"
+            },
             "BatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulNanoFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "BatchMatMulToBatchMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "BatchMatMulTransposeFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -4082,7 +4282,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
@@ -4102,7 +4306,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4125,6 +4329,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4154,7 +4362,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
@@ -4164,13 +4376,17 @@
             "ZZZBatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             }
         }
     },
     "session_and_graph_id_438_438": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4193,6 +4409,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4222,7 +4442,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
@@ -4232,13 +4456,17 @@
             "ZZZBatchMatMulFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
             }
         }
     },
     "session_and_graph_id_43_43": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4261,6 +4489,10 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "BatchMatMulTransposeFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "FIXPIPEAPREQUANTFUSIONPASS": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4290,7 +4522,11 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZMatMulTOQBMMV3FusionPass": {
+                "effect_times": "0",
                 "match_times": "1"
             },
             "ZZMatMulToMatmulV3FusionPass": {
@@ -4298,6 +4534,10 @@
                 "match_times": "1"
             },
             "ZZZBatchMatMulFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "ZZZMatMulToMatmulV3FusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             }
@@ -4310,7 +4550,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4318,7 +4558,7 @@
     "session_and_graph_id_442_442": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4326,7 +4566,7 @@
     "session_and_graph_id_44_44": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4334,6 +4574,14 @@
     "session_and_graph_id_45_45": {
         "graph_fusion": {
             "ARefreshCubeC0FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
             },
@@ -4362,7 +4610,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4370,7 +4618,7 @@
     "session_and_graph_id_46_46": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4378,7 +4626,7 @@
     "session_and_graph_id_47_47": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4390,7 +4638,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4398,7 +4646,7 @@
     "session_and_graph_id_49_49": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SubFusionPass": {
@@ -4410,7 +4658,7 @@
     "session_and_graph_id_4_4": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4434,7 +4682,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4454,7 +4702,7 @@
     "session_and_graph_id_51_51": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4474,7 +4722,7 @@
     "session_and_graph_id_52_52": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4485,6 +4733,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4510,7 +4766,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4521,6 +4777,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4546,7 +4810,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4554,7 +4818,7 @@
     "session_and_graph_id_55_55": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4565,6 +4829,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4590,7 +4862,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4598,7 +4870,7 @@
     "session_and_graph_id_57_57": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4606,7 +4878,7 @@
     "session_and_graph_id_58_58": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4618,7 +4890,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4626,7 +4898,7 @@
     "session_and_graph_id_5_5": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4646,7 +4918,7 @@
     "session_and_graph_id_60_60": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SubFusionPass": {
@@ -4662,7 +4934,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4682,7 +4954,7 @@
     "session_and_graph_id_62_62": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4702,7 +4974,7 @@
     "session_and_graph_id_63_63": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4713,6 +4985,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4738,7 +5018,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4749,6 +5029,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4774,7 +5062,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4782,7 +5070,7 @@
     "session_and_graph_id_66_66": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4793,6 +5081,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4818,7 +5114,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4826,7 +5122,7 @@
     "session_and_graph_id_68_68": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4834,7 +5130,7 @@
     "session_and_graph_id_69_69": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4842,7 +5138,7 @@
     "session_and_graph_id_6_6": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4866,7 +5162,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4874,7 +5170,7 @@
     "session_and_graph_id_71_71": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "SubFusionPass": {
@@ -4890,7 +5186,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4910,7 +5206,7 @@
     "session_and_graph_id_73_73": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -4930,7 +5226,7 @@
     "session_and_graph_id_74_74": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4941,6 +5237,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -4966,7 +5270,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -4977,6 +5281,14 @@
                 "effect_times": "0",
                 "match_times": "1"
             },
+            "Conv2DFixPipeToExtendConv2DFusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
+            "Conv2dToConv2dV2FusionPass": {
+                "effect_times": "0",
+                "match_times": "1"
+            },
             "ConvFormatRefreshFusionPass": {
                 "effect_times": "0",
                 "match_times": "1"
@@ -5002,7 +5314,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5010,7 +5322,7 @@
     "session_and_graph_id_77_77": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5022,7 +5334,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5050,7 +5362,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "RemoveCastFusionPass": {
@@ -5062,7 +5374,7 @@
     "session_and_graph_id_7_7": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5086,7 +5398,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5110,7 +5422,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5130,7 +5442,7 @@
     "session_and_graph_id_82_82": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5150,7 +5462,7 @@
     "session_and_graph_id_83_83": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5162,7 +5474,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5186,7 +5498,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5202,7 +5514,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5222,7 +5534,7 @@
     "session_and_graph_id_87_87": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5246,7 +5558,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5266,7 +5578,7 @@
     "session_and_graph_id_89_89": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5274,7 +5586,7 @@
     "session_and_graph_id_8_8": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {
@@ -5294,7 +5606,7 @@
     "session_and_graph_id_90_90": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5306,7 +5618,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5318,7 +5630,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5330,7 +5642,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5342,7 +5654,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5350,7 +5662,7 @@
     "session_and_graph_id_95_95": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5358,7 +5670,7 @@
     "session_and_graph_id_96_96": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5366,7 +5678,7 @@
     "session_and_graph_id_97_97": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5374,7 +5686,7 @@
     "session_and_graph_id_98_98": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5386,7 +5698,7 @@
                 "match_times": "1"
             },
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             }
         }
@@ -5394,7 +5706,7 @@
     "session_and_graph_id_9_9": {
         "graph_fusion": {
             "RefreshInt64ToInt32FusionPass": {
-                "effect_times": "1",
+                "effect_times": "0",
                 "match_times": "1"
             },
             "TransdataCastFusionPass": {

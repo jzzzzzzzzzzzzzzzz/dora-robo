@@ -1,0 +1,15 @@
+Device_id,Level,API Name,Time(us),Count,Avg(us),Min(us),Max(us),Variance
+0,acl,aclCreateDataBuffer,11012.479,13821,0.797,0.625,218.354,3.776
+0,acl,aclCreateTensorDesc,23608.167,13821,1.708,0.812,3207.292,759.648
+0,acl,aclDestroyTensorDesc,24632.083,13821,1.782,0.729,1451.729,219.005
+0,acl,aclopCompileAndExecute,207882106.083,3616,57489.52,21.0,3942342.292,28090383276.54
+0,acl,aclopCreateAttr,166.354,147,1.132,0.792,2.062,0.067
+0,acl,aclopDestroyAttr,585.167,147,3.981,1.021,23.208,10.129
+0,acl,aclrtGetCurrentContext,3736.625,429,8.71,5.375,350.625,313.361
+0,acl,aclrtMemcpy,2599.812,13,199.986,5.292,1458.854,210019.772
+0,acl,aclrtMemcpyAsync,186.958,2,93.479,15.104,171.854,6142.641
+0,acl,aclrtSetCurrentContext,8443.271,429,19.681,15.146,70.812,21.615
+0,acl,aclrtSynchronizeDeviceWithTimeout,219.188,1,219.188,219.188,219.188,0.0
+0,acl,aclrtSynchronizeStreamWithTimeout,1268.917,13,97.609,31.042,281.25,4577.492
+0,node,launch,273069.375,3752,72.78,9.375,24271.375,209419.948
+0,acl,opCompile,205535943.583,3616,56840.692,3.562,3751154.021,27254267643.252
