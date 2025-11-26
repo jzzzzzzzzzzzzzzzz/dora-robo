@@ -55,6 +55,8 @@ TORCH_PROF_EXPORT = (
     else None
 )
 ENABLE_ACTION_LOG = os.getenv("ACT_PRINT_ACTION", "0") == "1"
+MAX_FRAMES = int(os.getenv("ACT_MAX_FRAMES", "0"))
+MAX_SECONDS = float(os.getenv("ACT_MAX_SECONDS", "0"))
 
 try:
     from torch_npu.profiler import ProfilerActivity, profile as npu_profile  # type: ignore
@@ -205,6 +207,7 @@ def inference(cfg: InferenceConfig, policy_cfg: PreTrainedConfig,daemon: Daemon)
 
     latency_window: deque[float] = deque(maxlen=LATENCY_WINDOW)
     latency_frame_idx = 0
+    global_frame_idx = 0
     if LATENCY_LOG_PATH is not None:
         LATENCY_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
         if not LATENCY_LOG_PATH.exists():
@@ -231,7 +234,7 @@ def inference(cfg: InferenceConfig, policy_cfg: PreTrainedConfig,daemon: Daemon)
         logging.info("Recording active. Press:")
         logging.info("- 'n' to finish current episode and start new one")
         logging.info("- 'e' to stop recording and exit")
-        
+        loop_start = time.time()
         while True:
             daemon.update()
             observation = daemon.get_observation()
@@ -270,7 +273,8 @@ def inference(cfg: InferenceConfig, policy_cfg: PreTrainedConfig,daemon: Daemon)
                 if ENABLE_ACTION_LOG:
                     logging.info("Action: %s", action)
                 daemon.robot.send_action(action)
-            
+                global_frame_idx += 1
+
             # 显示图像（仅在非无头模式）
             if observation and not is_headless():
                 for key in observation:
@@ -288,6 +292,13 @@ def inference(cfg: InferenceConfig, policy_cfg: PreTrainedConfig,daemon: Daemon)
                 # record.stop()
                 # record.save()
                 return  # 直接退出函数
+            # 自动退出条件：帧数/时长达到上限
+            if MAX_FRAMES and global_frame_idx >= MAX_FRAMES:
+                logging.info("Reached MAX_FRAMES=%d, exiting inference loop", MAX_FRAMES)
+                return
+            if MAX_SECONDS and (time.time() - loop_start) >= MAX_SECONDS:
+                logging.info("Reached MAX_SECONDS=%.2f, exiting inference loop", MAX_SECONDS)
+                return
         
         # 10. 保存当前episode
         # record.stop()

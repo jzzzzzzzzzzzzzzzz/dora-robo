@@ -1,0 +1,91 @@
+ACT 模型设计与 310B 部署优化说明
+=================================
+
+1. 模型结构概述
+----------------
+- 主体：Action Chunking Transformer (ACT)。
+- 视觉编码：ResNet18（可替换）提取多摄像头特征，支持 FrozenBatchNorm，输出 feature map。
+- 状态融合：拼接机器人/环境状态后经线性映射，与视觉特征一起送入 Transformer 编码器。
+- 动作解码：Transformer 解码器 + learnable position embeddings，输出 chunk_size 条动作序列。
+- VAE 可选：训练期可启用 VAE encoder；推理期可关闭以缩短路径。
+- 动作队列：一次前向输出 chunk_size 步，推理循环通过队列逐帧弹出，降低前向调用次数。
+- 时间加权：可选 temporal ensemble，对多个 chunk 做指数加权。
+- 归一化：Normalize/Unnormalize 统一输入输出尺度；保持与训练数据集一致的特征名和顺序。
+
+2. 推理流程（端到端）
+--------------------
+- Dora Daemon 读取相机帧/关节等，build_dataset_frame 生成与训练一致的特征 dict。
+- predict_action：numpy→torch，图像归一化/CHW，附加 task/robot_type 文本，调用 policy.select_action。
+- select_action：若启用队列/ensemble，则一次前向产生多步动作并缓存；返回单步动作。
+- 动作下发：daemon.robot.send_action，形成“摄像头→模型→动作”闭环。
+
+3. 310B 部署要点
+----------------
+- 运行时：torch-npu + Ascend 8.3 RC1；可选 AMP、通道/形状对齐（dim_model/dim_feedforward 对齐 128 倍数）。
+- 输入格式：尽量减少 permute/contiguous；考虑 AIPP/DVPP 直接输出 NPU 友好格式（如 NC1HWC0）以减少 TransData。
+- Profiling：ACT_MAX_FRAMES/SECONDS 控制会话长度；torch_npu profiler + msprof 导出 op_summary/api_statistic，区分“端到端”和“纯模型”两类基线。
+
+4. 基线测试与发现
+-----------------
+- 端到端基线（固定帧数）：总耗时榜首为 TransData/Memcpy 类，说明数据格式/拷贝开销大；平均耗时高的算子集中于 MatMul/LayerNorm/Conv。
+- 纯模型基线（单帧多次）：去除摄像头/通信影响，可直接观察 Transformer/ResNet 内部算子耗时。
+- API 统计：若 aclrtMemcpy/aclrtMalloc 占比高，说明链路/内存管理有改进空间；op_summary 则定位具体算子。
+
+5. 优化思路
+-----------
+算子侧（模型内）：
+- AMP + 分辨率/通道裁剪，减小 MatMul/Conv 负载。
+- dim_model/dim_feedforward/n_heads/layers 按 310B 友好尺寸调整；可尝试去掉 VAE/ensemble 以缩短路径。
+- 算子融合或自定义 TE：如 LayerNorm + Bias + Activation；关注热点算子调用点位于 modeling_act.py 的 Encoder/Decoder/Backbone。
+
+链路侧（数据路径）：
+- DVPP/AIPP：在 daemon 前置图像处理（resize/色域/归一化）输出对齐格式，减少 TransData/拷贝。
+- 缓冲/通信：复用 ZeroMQ/SHM 缓冲，降低 aclrtMemcpy 调用；尽量避免 Python 频繁 permute。
+- 输入格式对齐：摄像头产出数据直接匹配模型期望的 layout/步长，减少运行时转换。
+
+6. 实验设计
+-----------
+- 基线 1（端到端）：ACT_MAX_FRAMES 固定帧数，记录 latency CSV + op_summary/api_statistic，评估链路优化效果。
+- 基线 2（纯模型）：profile_act_minimal 单帧多次，聚焦算子级，评估模型/算子改动。
+- 对比指标：总耗时/平均耗时排序、调用次数、端到端帧时延；记录于 aggregated_op_summary(_by_avg).csv 和 latency.csv。
+
+7. 已有实验样例（可按此结构补充数据）
+------------------------------------
+- 端到端基线（示例）
+  - 采集命令：`ACT_PROFILE_TORCH=1 ACT_TORCH_PROFILE_EXPORT=logs/fullflow.json ACT_MAX_FRAMES=200 bash scripts/run_so101_inference.sh`
+  - 解析目录：export_only_prof_dir/orangepiaipro_18323_20251121182720764_ascend_pt/...
+  - 观察：TransData 总耗时最高（调用 600+ 次），MatMul/LayerNorm/Conv 平均耗时居前。
+  - API 统计：若 aclrtMemcpy 占比高，记录耗时与调用次数。
+  - 端到端帧延时：latency_so101.csv（均值/95P）。
+- 纯模型基线（示例）
+  - 采集命令：`python scripts/profile_act_minimal.py --policy-path ... --dataset ... --iters 50 --profile`
+  - 解析：msprof --export 输出 op_summary，聚合为 aggregated_op_summary*。
+  - 观察：不含 TransData，热点集中在 MatMul/LayerNorm/Conv，便于评估模型改动。
+
+8. 后续实验与数据占位
+--------------------
+请在完成每次实验后补充下表：
+
+- 实验编号：
+- 方案描述（算子侧/链路侧改动）：
+- 命令/参数（ACT_MAX_FRAMES/SECONDS，AMP，分辨率等）：
+- 端到端指标：avg/p95 帧延迟；TransData 总/平均耗时；Memcpy API 耗时。
+- 模型指标：MatMul/LayerNorm/Conv 平均耗时；调用次数。
+- 结论：是否改善；后续动作。
+
+9. 论文写作扩展点
+-----------------
+- 模型创新（部署视角）：
+  - 动作块 + 队列复用：减少前向次数，适合资源受限的 310B。
+  - 多模态融合 + 可插拔 VAE/ensemble：按任务切换，兼顾性能与时延。
+  - 部署友好开关：AMP、分辨率/通道对齐，易于在端侧调优。
+- 系统优化总结：
+  - 算子侧：针对 MatMul/LayerNorm/Conv 做精度/结构/融合优化的效果量化。
+  - 链路侧：DVPP/AIPP、格式对齐、减少拷贝对 TransData/Memcpy 的影响量化。
+  - 实验方法：固定帧/单帧多次的双基线，确保可复现与对比。
+
+7. 论文撰写要点
+---------------
+- 模型设计亮点：动作块队列复用、多模态融合、可插拔 VAE/ensemble、部署友好（AMP/对齐）选项。
+- 基线结论：TransData/拷贝是链路瓶颈；MatMul/LayerNorm/Conv 是计算热点。
+- 优化路径：双路线（算子侧 + 链路侧），各自的改动及对指标的影响；强调可重复、可对比的固定帧测试策略。 
